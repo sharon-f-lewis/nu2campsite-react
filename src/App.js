@@ -1,4 +1,4 @@
-import CampsitesList from './features/campsites/CampsitesList';
+import CampsitesDirectoryPage from './pages/CampsitesDirectoryPage';
 import Footer from './components/Footer';
 import Header from './components/Header';
 import './App.css';
@@ -7,7 +7,7 @@ function App() {
   return (
     <div className='App'>
       <Header />
-      <CampsitesList />
+      <CampsitesDirectoryPage />
       <Footer />
     </div>
   );
