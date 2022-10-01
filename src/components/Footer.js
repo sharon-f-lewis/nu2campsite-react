@@ -22,7 +22,7 @@ const Footer = () => {
                 <Link to='/contact'>Contact</Link>
               </li>
             </ul>
-          </Col>
+          </Col> {/* end page links */}
           <Col xs='6' sm='3' className='text-center'>
             <h5>Social</h5>
             <a 
@@ -49,7 +49,7 @@ const Footer = () => {
             >
               <i className='fa fa-youtube' />
             </a>
-          </Col>
+          </Col> {/* end social links */}
           <Col sm='4' className='text-center'>
             <a
               role='button'
@@ -66,7 +66,7 @@ const Footer = () => {
             >
               <i className='fa fa-envelope-o' /> campsites@nucmap.co
             </a>
-          </Col>
+          </Col> {/* end contact links */}
         </Row>
       </Container>
     </footer>
