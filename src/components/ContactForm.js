@@ -4,8 +4,6 @@ import { validateContactForm } from '../utils/validateContactForm';
 
 const ContactForm = () => {
   const handleSubmit = (values, {resetForm}) => {
-    console.log('form values:', values);
-    console.log('in JSON format:', JSON.stringify(values));
     resetForm();
   };
 

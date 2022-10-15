@@ -10,8 +10,6 @@ const commentsSlice = createSlice({
   initialState,
   reducers: {
     addComment: (state, action) => {
-      console.log('addComment action.payload:', action.payload);
-      console.log('addComment state.commentsArray:', state.commentsAray);
       const newComment = {
         id: state.commentsArray.length + 1,
         ...action.payload

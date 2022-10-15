@@ -6,7 +6,6 @@ import { selectCommentsByCampsiteId } from './commentsSlice';
 
 const CommentsList = ({ campsiteId }) => {
   const comments = useSelector(selectCommentsByCampsiteId(campsiteId));
-  console.log('comments:', comments);
 
     if (comments && comments.length > 0) {
       return (

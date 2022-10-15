@@ -5,7 +5,6 @@ import { selectAllCampsites } from './campsitesSlice';
 
 const CampsitesList = () => {
   const campsites = useSelector(selectAllCampsites);
-  console.log('campsites:', campsites);
 
   return (
     <Row className='ms-auto'>
